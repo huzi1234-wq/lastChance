@@ -31,5 +31,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: Run Surge
-        run: surge ./ unevenalim.surge.sh --token ${{ 94aab301762409e9ad064df8b9b1cde3 }}
+        run: surge ./ unevenalim.surge.sh --token ${{ secrets.SURGETOKEN }}
       
